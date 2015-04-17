@@ -7,7 +7,7 @@
 //Arobat 11 OSX 10.6.8 にて確認
 //インストール先は
 //ディスク名/Users/ユーザー名/Library/Application Support/Adobe/Acrobat/11.0/JavaScripts
-
+//文字コード　UTF-16　改行コードUNIX　に変更してから配置
 
 //処理部
 function setLinkAllPage(){
