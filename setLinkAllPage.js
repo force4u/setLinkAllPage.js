@@ -56,7 +56,10 @@ var linkRect1 = [0,linkHeight,linkWidth,0];
 //リンクオブジェクトを作成
 var lhLink = this.addLink(i, linkRect1);
 //リンクオブジェトにリンクを設定
-lhLink.setAction("this.getURL(strResponse)");
+lhLink.setAction("app.launchURL('" + strResponse + "');");
+
+
+
 //ボーダーカラーは白
 //lhLink.borderColor = color.white;
 //デモ用の赤ボーダー
