@@ -1,4 +1,5 @@
-# setLinkAllPage
+# 
+setLinkAllPage
 AdobeAcrobatPro用のアドオンツールJavaScripts
 setLinkAllPage.js
 20150418 v0.1
