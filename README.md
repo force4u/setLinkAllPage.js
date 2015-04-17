@@ -1,0 +1,2 @@
+# setLinkAllPage
+AdobeAcrobatPro用のアドオンツールJavaScripts
