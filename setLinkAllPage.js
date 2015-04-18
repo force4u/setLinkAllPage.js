@@ -1,6 +1,6 @@
 //
 //setLinkAllPage.js
-//20140812 v1
+//20140812 v1.1
 //ダイアログで入力されたURLを
 //全てのページへリンクオブジェクトとして付加します
 //Detected linksに対応
@@ -23,6 +23,10 @@ var strResponse = app.response({
 		});
 //デバッグ用のコンソールログ
 console.println(strResponse);
+//ダイアログの戻り値がnullなら処理を中止
+if (strResponse == null){
+ exit;
+}
 //繰り返しのはじまり
 for ( var i=0; i < this.numPages; i++)
 	{
