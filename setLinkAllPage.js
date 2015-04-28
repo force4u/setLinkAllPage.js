@@ -13,7 +13,7 @@
 function setLinkAllPage(){
 //まずはコンソール（デバッガー）を出さないと
 //結果が見れませんので出しておきます
-//console.show();
+console.show();
 //URL入力用のダイアログ
 var strResponse = app.response({
 		cQuestion: "リンクオブジェクト用のURLを入力",
